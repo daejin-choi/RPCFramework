@@ -1,0 +1,12 @@
+option java_package = "rpc.framework.test";
+option java_outer_classname = "BenchmarkProto";
+option java_generic_services = true;
+option java_generate_equals_and_hash = true;
+
+message benchmarkRequest {
+	required int64 in1 = 1;
+}
+
+message benchmarkResponse {
+	required int64 rst = 1;
+}

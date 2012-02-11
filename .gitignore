@@ -1,0 +1,8 @@
+.project
+.settings
+.classpath
+.metadata
+target
+*.flr
+vpproject
+*.DS_Store
